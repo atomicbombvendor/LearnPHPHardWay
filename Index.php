@@ -1,12 +1,13 @@
 <?php
 echo 'test';
 echo 'test';
-echo 'test';
-echo 'test';
+
 $i=0;
 echo '<table width="800" border="1">';
+echo 'test';
+echo 'test';
 
-while($i<300){
+while($i<10){
     //0 - 9 为一行
     //10 -19 为一行
     //因此，每一行都能够被10求默，如为为10的时候，应该显示行开始的标签
