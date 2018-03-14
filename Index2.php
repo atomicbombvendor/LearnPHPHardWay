@@ -1,11 +1,4 @@
 
-/**
-* Created by PhpStorm.
-* User: ZZ
-* Date: 2018/3/12
-* Time: 20:57
-*/
-
 <form>
     <input type="text" name="num1">
 
@@ -26,6 +19,9 @@
 </form>
 
 <?php
+$num1 = 0;
+$num2 = 0;
+$fh = 0;
 
 $num1 = $_GET['num1'];
 $num2 = $_GET['num2'];
