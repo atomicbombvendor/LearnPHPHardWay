@@ -8,13 +8,11 @@
         <option value="c"> x </option>
         <option value="chu"> / </option>
         <option value="qy"> % </option>
-
     </select>
 
     <input type="text" name="num2">
 
     <input type="submit" value="运算" />
-
 
 </form>
 
