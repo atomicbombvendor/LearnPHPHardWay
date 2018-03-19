@@ -7,20 +7,20 @@
  */
 
 //append to open file
-$fp = fopen('message.txt', 'a');
+$fp = fopen('../resource/message.txt', 'w');
 
 $time = time();
 
-$username = trim($_POST['username']);
+$write = trim($_POST['username']);
 
 $content = trim($_POST['content']);
 
-$string = $username.'#'.$content.'#'.$time.'&';
+$string = $write.'#'.$content.'#'.$time.'&^';
 
 fwrite($fp, $string);
 
 fclose($fp);
 
-header('location:index,php');
+header('location:index.php');
 
 ?>
