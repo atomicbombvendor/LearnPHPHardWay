@@ -21,9 +21,9 @@ $num1 = 0;
 $num2 = 0;
 $fh = 0;
 
-$num1 = $_GET['num1'];
-$num2 = $_GET['num2'];
-$fh = $_GET['fh'];
+$num1 = $_GET['num1'] = 0;
+$num2 = $_GET['num2'] = 0;
+$fh = $_GET['fh'] = 1;
 
 if(!is_numeric($num1) || !is_numeric($num2)){
 
